@@ -1,0 +1,12 @@
+{
+    "exclude": [
+        "strauss.phar",
+        "appsero.json",
+        "composer.json",
+        "composer.lock",
+        ".gitignore",
+		"readme-dev.md",
+		"tests",
+		"phpunit.phar"
+    ]
+}

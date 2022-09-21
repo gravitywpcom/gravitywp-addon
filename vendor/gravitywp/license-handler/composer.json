@@ -1,0 +1,13 @@
+{
+    "name": "gravitywp/license-handler",
+    "description": "Handles Appsero licenses for Gravity Forms Addons",
+    "autoload": {
+        "psr-4": {
+            "GravityWP\\LicenseHandler\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0",
+        "appsero/client": "1.2.0"
+    }
+}

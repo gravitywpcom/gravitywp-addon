@@ -1,0 +1,38 @@
+{
+    "require": {
+        "gravitywp/license-handler": "^1.0"
+    },
+    "extra": {
+        "strauss": {
+            "target_directory": "lib",
+            "namespace_prefix": "GravityWP\\GravityWP_Addon_Name\\",
+            "classmap_prefix": "GravityWP_Addon_Name",
+            "constant_prefix": "GWP_GWPAN",
+            "packages": [
+            ],
+            "override_autoload": {
+            },
+            "exclude_from_copy": {
+                "packages": [
+                ],
+                "namespaces": [
+                ],
+                "file_patterns": [
+                ]
+            },
+            "exclude_from_prefix": {
+                "packages": [
+                ],
+                "namespaces": [
+                ],
+                "file_patterns": [
+                    "/^psr.*$/"
+                ]
+            },
+            "namespace_replacement_patterns" : {
+            },
+            "delete_vendor_files": false
+        }
+    }
+
+}

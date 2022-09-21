@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => 'dev-develop',
+        'version' => 'dev-develop',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => '47d0f976ec72130be6fe88aeadc99bea0d4cc7a6',
+        'name' => '__root__',
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => 'dev-develop',
+            'version' => 'dev-develop',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => '47d0f976ec72130be6fe88aeadc99bea0d4cc7a6',
+            'dev_requirement' => false,
+        ),
+        'appsero/client' => array(
+            'pretty_version' => 'v1.2.0',
+            'version' => '1.2.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../appsero/client',
+            'aliases' => array(),
+            'reference' => '5c3fdc4945c8680bca6fb01eee1ec5dc4f22de87',
+            'dev_requirement' => false,
+        ),
+        'gravitywp/license-handler' => array(
+            'pretty_version' => 'v1.0.18',
+            'version' => '1.0.18.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../gravitywp/license-handler',
+            'aliases' => array(),
+            'reference' => '500de26656dfa643709f6587cb0bbb311dddc7db',
+            'dev_requirement' => false,
+        ),
+    ),
+);
