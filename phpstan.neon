@@ -1,0 +1,13 @@
+parameters:
+	level: 6
+	phpVersion: 81000 # 8.1
+	paths:
+		- /
+	scanDirectories:
+		- ../
+	excludePaths:
+	 - node_modules/*
+	 - lib/*
+	 - vendor/*
+	 - .github/*
+	 - .git/*

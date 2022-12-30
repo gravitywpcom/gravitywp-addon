@@ -1,8 +1,6 @@
 /* eslint-disable linebreak-style */
 import '../css/style.scss';
 
-import Decimal from 'decimal.js-light';
-
 window.GWPAddonname = null;
 
 const GWPAddonnames = [];

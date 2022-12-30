@@ -26,8 +26,4 @@ Upload the plugin files to the `/wp-content/plugins/gravitywp-addon-name` direct
 = 1.0-beta.1 =
 * it's all new.
 
-addon-name
-Addon Name
-addonname
-Addon_Name
-GWPAN
+
